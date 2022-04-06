@@ -1,2 +1,2 @@
-# assignment-01-pwan365
-assignment-01-pwan365 created by GitHub Classroom
+# Assignment 1 - Tech Demo
+This is an app created using React Native

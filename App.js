@@ -83,14 +83,12 @@ const HomeScreen = ({ navigation }) => {
         backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
     };
 
-    let date = (new Date()).toDateString();
-
     const mockGoals = [
         {
             id: 1,
             name: "Car",
             cost: 100000,
-            start: date,
+            start: new Date(),
             end: new Date()
         },
         {
@@ -248,31 +246,6 @@ const AddGoalScreen = ({ navigation }) => {
                 <TouchableOpacity
                     style={styles.button}
                     onPress={() => {
-                        var ID
-                        while (true) {
-                            let newID = Math.floor(Math.random() * 1000)
-                            var repeated = false
-                            for (var i = 0; i < goalList.length; i++) {
-                                if (goalList[i].id == newID) {
-                                    repeated = true
-                                    break
-                                }
-                            }
-                            if (!repeated) {
-                                ID = newID
-                                break
-                            }
-                        }
-                        const data = {
-                            id: ID,
-                            name: name,
-                            cost: cost,
-                            start: startDate,
-                            end: endDate,
-                            allocated: 0
-                        }
-                        goalList.push(data)
-                        console.log(goalList)
                         navigation.navigate('Home')
                     }}
                 >

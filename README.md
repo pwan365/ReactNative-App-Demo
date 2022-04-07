@@ -26,6 +26,7 @@ Use cammand
 Keep the previous powershell running and open another new windows powershell
 
 Use cammand
+
 `npx react-native run-android`
 
 ## The code base

@@ -3,7 +3,7 @@ This is an app created using React Native
 
 ## Setting up environment
 
-To run this app on your machine, follow the [Setup Guide](https://reactnative.dev/docs/environment-setup) on React Native's website up until the "Create a new application" section.
+To run this app on your machine, you will need Node and Android Studio. Follow the [Setup Guide](https://reactnative.dev/docs/environment-setup) on React Native's website up until the "Create a new application" section.
 
 Clone this repository into a folder.
 
